@@ -1,0 +1,13 @@
+zadanie 4
+Z klasy Wspolny, w której wcześniej utworzono główne zmienne, dziedziczą klasy: Ebooki, Filmy, Ksiazki, PlytyMuzyczne i Audiobooki.
+Dodatkowo stworzono dwie klasy: Autor oraz Strony. 
+Klasy dziedziczące korzystały z klas (odpowiednio [Ksiazki z klasy Strony] i [Audiobooki, Ebooki, Filmy, Ksiązki oraz PlytyMuzyczne z klasy Autor])
+które zostały zadeklarowane w każdej z nich jako obiekty. 
+Klasy Wypozyczalnia oraz Uzytkownik pozostały bez zmian 
+W klasie Wspolny dodano metody zwracające wycenianą wartość oraz wydawnictwo z którego dany obiekt pochodzi.
+W klasie  Autor zdefiniowano dwie metody zwracające odpowiednio imię oraz nazwisko. 
+W klasie Strony zdefiniowano dwie metody zwracające odpowiednio ilosc stron oraz rodzaj papieru. 
+Dodatkowo w Klasie Ksiazki korzystającej z obiektów klas Strony oraz Autor zaimplementowano dwie metody zwracające obiekty klas Strony oraz Autor.
+Natomiast w klasach Audiobooki, Ebooki, Filmy oraz PlytyMuzyczne korzystających z obiektu klasy Autor zaimplementowano metodę zwracającą obiekt tej klasy.
+Zmienne we wszystkich klasach (z wyłączeniem klasy Wypozyczalnia) zostały zadeklarowane przy użyciu this.zmienna=jakies dane. 
+
